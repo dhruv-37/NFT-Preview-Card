@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: Outfit;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 75px auto;
+    box-shadow: 0 0 6px 1px hsl(215, 52%, 6%);
+    transition: 0.2s ease-in-out;
+}
+
+.image {
+    width: 88%;
+    height: 264px;
+    background-image: url(image-equilibrium.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+}
+
+.info {
+    width: 88%;
+    height: 25px;
+    margin-left: 22.5px;
+    margin-top:32px;
+    color: white;
+    font-size: 1.3125em;
+    font-weight: 600;
+}
+
+.subinfo {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.bars {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 0.9rem;
+}
+
+.diamond {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-left: 23px;
+}
+
+.time {
+    font-weight: 600;
+    color: hsl(215, 51%, 70%);
+    margin-left: 83px;
+}
+
+.diamond , .time {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    opacity: 25%;
+    width: 88%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.bio {
+    width: 88%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 18px;
+}
+
+.logo img{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.logo-info {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.875rem;
+    margin-left: 10px;
+}
+
+span {
+    color: white;
+}
+
+.image:hover , .info:hover , .logo-info:hover{
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
